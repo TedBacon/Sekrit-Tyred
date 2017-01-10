@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.12",
+	"Category": "",
+	"Description": "",
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"MacNoEditor",
+		"PS4",
+		"XboxOne"
+	]
+}
