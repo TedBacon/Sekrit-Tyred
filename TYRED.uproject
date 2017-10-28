@@ -3,6 +3,24 @@
 	"EngineAssociation": "4.12",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "HTML5Networking",
+			"Enabled": false
+		},
+		{
+			"Name": "SlateRemote",
+			"Enabled": false
+		},
+		{
+			"Name": "MacGraphicsSwitching",
+			"Enabled": false
+		},
+		{
+			"Name": "EpicSurvey",
+			"Enabled": false
+		}
+	],
 	"TargetPlatforms": [
 		"WindowsNoEditor",
 		"MacNoEditor",
