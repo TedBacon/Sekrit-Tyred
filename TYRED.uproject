@@ -124,6 +124,38 @@
 			"Name": "Substance",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": false
+		},
+		{
+			"Name": "CodeView",
+			"Enabled": true
+		},
+		{
+			"Name": "GoogleCloudMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "NullSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "MatineeToLevelSequence",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "XCodeSourceCodeAccess",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
