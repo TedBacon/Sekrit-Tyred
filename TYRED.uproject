@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.18",
+	"EngineAssociation": "4.20",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TYRED",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "HTML5Networking",
@@ -113,14 +120,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5eb6d67c19e24abb9e9cb8b284ac9493"
 		},
 		{
-			"Name": "AdvancedSessions",
-			"Enabled": true
-		},
-		{
-			"Name": "AdvancedSteamSessions",
-			"Enabled": true
-		},
-		{
 			"Name": "Substance",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
@@ -156,6 +155,14 @@
 		{
 			"Name": "XCodeSourceCodeAccess",
 			"Enabled": false
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedSteamSessions",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
