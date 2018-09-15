@@ -2,3 +2,5 @@
 #include "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp"
 #include "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamSessions.cpp"
 #include "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamWorkshopLibrary.cpp"
+#include "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamRequestGroupOfficersCallbackProxy.cpp"
+#include "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamWSRequestUGCDetailsCallbackProxy.cpp"
