@@ -13,6 +13,7 @@
 /Ob2
 /arch:SSE2
 /errorReport:prompt
+/Z7
 /MD
 /bigobj
 /fp:fast
@@ -236,13 +237,9 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/D_HAS_EXCEPTIONS=0
-/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h"
-/Yu"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h"
-/Fp"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h.pch"
-"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
-/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Fo"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
+"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\UpdateSessionCallbackProxyAdvanced.cpp"
+/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Definitions.Adaptive.h"
+/Fo"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\UpdateSessionCallbackProxyAdvanced.cpp.obj"
 /TP
 /GR-
 /W4

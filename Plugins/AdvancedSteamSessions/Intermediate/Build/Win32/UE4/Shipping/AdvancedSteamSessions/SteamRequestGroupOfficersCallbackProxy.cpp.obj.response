@@ -13,6 +13,7 @@
 /Ob2
 /arch:SSE2
 /errorReport:prompt
+/Z7
 /MD
 /bigobj
 /fp:fast
@@ -22,7 +23,7 @@
 /wd4838
 /we4668
 /I .
-/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions\Private"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win32\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -76,10 +77,11 @@
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils
-/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSessions"
-/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source"
-/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSteamSessions"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source"
+/I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions"
 /I ..\Intermediate\Build\Win32\UE4\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I Runtime\CoreUObject
@@ -229,6 +231,16 @@
 /I ..\Intermediate\Build\Win32\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSessions"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Source\AdvancedSessions"
+/I ThirdParty\Steamworks\Steamv139\sdk\public
+/I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win32\UE4\Inc\OnlineSubsystemSteam
+/I ..\Plugins\Online\OnlineSubsystemSteam
+/I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
+/I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
+/I ..\Plugins\Online\OnlineSubsystemSteam\Source
 /I "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\ucrt"
@@ -236,13 +248,9 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/D_HAS_EXCEPTIONS=0
-/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h"
-/Yu"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h"
-/Fp"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Intermediate\Build\Win32\TYRED\Shipping\Engine\SharedPCH.Engine.h.pch"
-"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
-/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Fo"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
+"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamRequestGroupOfficersCallbackProxy.cpp"
+/FI"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSteamSessions\Definitions.Adaptive.h"
+/Fo"D:\GitHubRepositories\Sekrit-Tyred\Sekrit-Tyred 4.18\Plugins\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Shipping\AdvancedSteamSessions\SteamRequestGroupOfficersCallbackProxy.cpp.obj"
 /TP
 /GR-
 /W4

@@ -41,7 +41,7 @@
 #define PROJECT_PRODUCT_IDENTIFIER TYRED
 #define NDEBUG 1
 #define UE_BUILD_SHIPPING 1
-#define UE_ENGINE_DIRECTORY "../../../../Unreal Engine/UE_4.20/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../../../Programs/Epic Games/UE_4.20/Engine/"
 #define ORIGINAL_FILE_NAME "TYRED-Win32-Shipping.exe"
 #define UE_IS_ENGINE_MODULE 0
 #define UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME 0
