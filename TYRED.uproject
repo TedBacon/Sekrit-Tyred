@@ -163,6 +163,10 @@
 		{
 			"Name": "AdvancedSteamSessions",
 			"Enabled": true
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
